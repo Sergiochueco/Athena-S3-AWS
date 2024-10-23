@@ -30,6 +30,11 @@ Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuaci√
 [![upload-file.png](https://i.postimg.cc/yNj8N57C/upload-file.png)](https://postimg.cc/yJJHQLJL)
 
 
+[![checkfile-upload.png](https://i.postimg.cc/XY88kfWc/checkfile-upload.png)](https://postimg.cc/QFF1XWHH)
+
+
+
+
 Una vez creado el bucket y subido el archivo, tenemos que conectar AWS Athena con nuestro bucket para poder crear tablas, cargar el contenido y poder realizar querys de nuestros datos.
 
 
