@@ -42,7 +42,7 @@ Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuaci√
 
 
 
-##  <img src="https://i.postimg.cc/2yJGv2F0/amazon-athena-image.png" alt="Athena" width="120" height="120" />
+##  <img src="https://i.postimg.cc/2yJGv2F0/amazon-athena-image.png" alt="Athena" width="160" height="120" />
 
 **5)** Abrir AWS Athena
 
