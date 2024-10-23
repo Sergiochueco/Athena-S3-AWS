@@ -73,8 +73,7 @@ Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuaci�
 <br>
 <p>
 
->[!WARNING] 
->Athena cobra en función de los datos procesados o de los cálculos utilizados.
+
 
 </p>
 
