@@ -1,6 +1,6 @@
 # AWS 
 
-<img src="https://i.postimg.cc/Bvcmy54v/s3-image.png" alt="S3" width="80" height="80" />
+<img src="https://i.postimg.cc/j53mg647/s3-image.png" alt="S3" width="80" height="80" />
 
 En este repositorio pretendo enseñar como como crear un Bucket de S3 en AWS, cargar archivos en el y conectar a AWS Athena para crear bases de datos, tablas y poder hacer consultas SQL a los archivos que contenga el Bucket al que apunta.
 
@@ -12,7 +12,7 @@ Veamos los paso a paso:
 2) Crear Bucket de S3
 3) ABrir el bucket creado y subir un archivo en formato CSV, JSON o el que se quiera.
 
-<img src="https://i.postimg.cc/2yJGv2F0/amazon-athena-image.png" alt="Athena" width="70" height="70" />
+<img src="https://i.postimg.cc/2yJGv2F0/amazon-athena-image.png" alt="Athena" width="100" height="100" />
 
 4) Abrir AWS Athena
 5) En Settings, click en Manage y apuntamos al bucket creado (no al archivo)
