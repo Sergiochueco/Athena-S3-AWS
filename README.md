@@ -14,24 +14,51 @@ Veamos los paso a paso:
 
 [![create-bucket-s3.png](https://i.postimg.cc/HWQP7CfM/create-bucket-s3.png)](https://postimg.cc/Wt17Qxpp)
 
-[![select-create-bucket.png](https://i.postimg.cc/GmpMNT9P/select-create-bucket.png)](https://postimg.cc/svt9GXY1)
-
 Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuación le damos a crear
 
 [![set-name-bucket.png](https://i.postimg.cc/Fz9bLwLb/set-name-bucket.png)](https://postimg.cc/ph6nNGky)
 
+[![select-create-bucket.png](https://i.postimg.cc/GmpMNT9P/select-create-bucket.png)](https://postimg.cc/svt9GXY1)
+
+3) Confirmamos que se ha creado correctamente y lo abrimos
+
 [![confirm-bucket-and-click.png](https://i.postimg.cc/52HBLB6r/confirm-bucket-and-click.png)](https://postimg.cc/5XVQMF55)
 
-3) Abrir el bucket creado y subir un archivo en formato CSV, JSON o el que se quiera.
+
+4) Subir un archivo, en este caso será un CSV.
+
+[![upload-file.png](https://i.postimg.cc/yNj8N57C/upload-file.png)](https://postimg.cc/yJJHQLJL)
+
+
+Una vez creado el bucket y subido el archivo, tenemos que conectar AWS Athena con nuestro bucket para poder crear tablas, cargar el contenido y poder realizar querys de nuestros datos.
+
 
 
 <img src="https://i.postimg.cc/2yJGv2F0/amazon-athena-image.png" alt="Athena" width="120" height="120" />
 
-4) Abrir AWS Athena
-5) En Settings, click en Manage y apuntamos al bucket creado (no al archivo)
-6) Corremos la consulta para crear la tabla, en función de los datos que tenemos en el archivo (create_table.sql, de ejemplo)
-7) Corremos una consulta con un limite de 10 líneas para comprobar que se ha cargado correctamente.
-8) Éxito, ya podemos utilizar Athena para realizar consultas SQL en nuestro archivo para obtener información.
+5) Abrir AWS Athena
+
+[![select-athena.png](https://i.postimg.cc/wMZhGMr2/select-athena.png)](https://postimg.cc/5Q5YH4bQ)
+
+
+6) En Settings, click en Manage y apuntamos al bucket creado (no al archivo)
+
+[![settings-and-location.png](https://i.postimg.cc/zGnnxJFw/settings-and-location.png)](https://postimg.cc/87zJ5g3s)
+[![change-location-athena.png](https://i.postimg.cc/qR7yB2VQ/change-location-athena.png)](https://postimg.cc/gwfnNX06)
+
+7) Corremos la consulta para crear la tabla, en función de los datos que tenemos en el archivo (create_table.sql, de ejemplo)
+
+[![create-table-athena.png](https://i.postimg.cc/bYWk8G6H/create-table-athena.png)](https://postimg.cc/QVgHJMZH)
+
+
+
+8) Chequeamos que los datos se han cargado exitosamente y con el formato adecuado.
+
+[![check-correct-table.png](https://i.postimg.cc/NfXCm2Lp/check-correct-table.png)](https://postimg.cc/Yhpxw96W)
+
+
+
+9) Éxito, ya podemos utilizar Athena para realizar consultas SQL en nuestro archivo para obtener información.
 
 
 [!WARNING]
