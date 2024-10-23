@@ -69,10 +69,11 @@ Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuaci�
 
 **9)** Éxito, ya podemos utilizar Athena para realizar consultas SQL en nuestro archivo para obtener información.
 
+
 <br>
 <p>
 
-[!WARNING] 
-Athena cobra en función de los datos procesados o de los cálculos utilizados.
+>[!WARNING] 
+>Athena cobra en función de los datos procesados o de los cálculos utilizados.
 
 </p>
