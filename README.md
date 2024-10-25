@@ -1,11 +1,9 @@
 # AWS
 
-#### En este repositorio pretendo enseñar como como crear un Bucket de S3 en AWS, cargar archivos en el y conectar a AWS Athena para crear bases de datos, tablas y poder hacer consultas SQL a los archivos que contenga el Bucket al que apunta.
+#### En este repositorio pretendo enseñar como como crear un Bucket de S3 en AWS, cargar archivos en el y conectar a AWS Athena para crear bases de datos, tablas y poder hacer consultas SQL a los archivos que contenga el Bucket al que apunta. Para ello vamos a añadir en nuestro Pipeline a AWS Glue para hacer la ETL de nuestros datos.
 
 
 ## <img src="https://i.postimg.cc/j53mg647/s3-image.png" alt="S3" width="180" height="100" />
-
-
 
 Veamos el paso a paso:
 
@@ -37,8 +35,9 @@ Le damos nombre al bucket bajo las consignas que AWS nos permite y a continuaci�
 
 
 
+## <img src="https://i.postimg.cc/pVjt6X30/logo-aws-gluepng.png" alt="Glue" width="180" height="100" />
 
-#### Una vez creado el bucket y subido el archivo, tenemos que conectar AWS Athena con nuestro bucket para poder crear tablas, cargar el contenido y poder realizar querys de nuestros datos.
+#### Una vez creado el bucket y subido el archivo, tenemos que conectar AWS Athena con nuestro bucket para poder crear tablas, cargar el contenido y poder realizar querys de nuestros datos. Pero antes vamos a crear un pipeline con AWS Glue para poder cargar y tranformar nuestros datos de manera automatizada.
 
 
 
