@@ -1,7 +1,12 @@
 # AWS
 
+ <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+</p>
+
 #### En este repositorio pretendo enseñar como como crear un Bucket de S3 en AWS, cargar archivos en el y conectar a AWS Athena para crear bases de datos, tablas y poder hacer consultas SQL a los archivos que contenga el Bucket al que apunta. Para ello vamos a añadir en nuestro Pipeline a AWS Glue para hacer la ETL de nuestros datos.
 
+## 🛠️ Este proyecto está actualizandose para añadir nuevos pipelines y funcionalidades 🛠️
 
 ## <img src="https://i.postimg.cc/j53mg647/s3-image.png" alt="S3" width="180" height="100" />
 
